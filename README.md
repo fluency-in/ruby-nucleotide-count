@@ -1,4 +1,4 @@
-# Nucleotide Count
+# Ruby: Nucleotide Count
 
 Given a DNA string, compute how many times each nucleotide occurs in the string.
 
@@ -26,6 +26,20 @@ DNA contains four types of them: adenine (`A`), cytosine (`C`), guanine
 RNA contains a slightly different set of nucleotides, but we don't care
 about that for now.
 
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby nucleotide_count_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 The Calculating DNA Nucleotides_problem at Rosalind [http://rosalind.info/problems/dna/](http://rosalind.info/problems/dna/)
@@ -34,3 +48,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
